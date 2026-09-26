@@ -1,20 +1,15 @@
 # Data
 
-This folder contains the data used for the NHANES Body Fat Prediction project.
+This folder contains the NHANES 2011–2012 source files used in the analysis.
 
-## Dataset
+- `DEMO_G.xpt`
+- `BMX_G.xpt`
+- `PAQ_G.xpt`
+- `DR1TOT_G.xpt`
+- `DXX_G.xpt`
 
-The project uses data from the **National Health and Nutrition Examination Survey (NHANES) 2011–2012 cycle**.
+The files are merged using `SEQN`.
 
-The following NHANES components are used:
+Source: National Health and Nutrition Examination Survey (NHANES), 2011–2012, National Center for Health Statistics (NCHS), CDC.
 
-- `DEMO_G` — Demographic data
-- `BMX_G` — Body Measures data
-- `PAQ_G` — Physical Activity data
-- `DR1TOT_G` — Dietary Intake data
-- `DXX_G` — Whole-Body DXA data
-
-The datasets are linked using the participant identifier:
-
-```text
-SEQN
+Official portal: https://www.cdc.gov/nchs/nhanes/
